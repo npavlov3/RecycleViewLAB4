@@ -5,12 +5,14 @@
     android:id="@+id/splashText"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#00BCD4"
     tools:context=".Splash">
 
     <TextView
-        android:layout_width="216dp"
-        android:layout_height="53dp"
-        android:text="@string/splash_example"
+        android:id="@+id/splash_text"
+        android:layout_width="92dp"
+        android:layout_height="42dp"
+        android:text="@string/splash"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -18,4 +20,14 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.202" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="299dp"
+        android:layout_height="567dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/curry_splash" />
 </android.support.constraint.ConstraintLayout>
